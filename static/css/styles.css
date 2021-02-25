@@ -1,0 +1,37 @@
+#rowDiv {
+  margin: auto;
+  margin-bottom: 0.7rem;
+  width: 60%;
+  justify-content: center;
+  display: flex;
+}
+#title {
+  margin-bottom: 0.6rem;
+  justify-content: center;
+}
+
+input[type="text"] {
+  height: 40px;
+  font-size: 20px;
+}
+
+#submitWeather {
+  height: 40px;
+  font-size: 20px;
+  /* font-weight: bold; */
+}
+
+#show {
+  margin: auto;
+  text-align: center;
+}
+
+/* body {
+    background-image: url('/static/images/wolfgang-hasselmann-bR_-gllg7Bs-unsplash.jpg')
+} */
+
+.jumbotron {
+  background-color: #047bfe;
+}
+
+/* #70858d; */
