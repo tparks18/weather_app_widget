@@ -14,19 +14,58 @@
       <div class="jumbotron" style="margin-bottom:20px; ">
           <h2 class="text-center" style="font-size:50px; font-weight:600; color:white"> Get Current Weather </h2>
       </div>
+       <div>
       <div class="container">
           <div class="row" id="title">
-              <h3 class="text-primary">Enter City Name</h3>
+              <h3 class="text-light">Enter City Name</h3>
               <span id="error"></span>
           </div>
           <div class="row form-group form-inline" id="rowDiv">
               <input type="text" name="city" id="city" class="form-control" placeholder="City Name">
-              <button id="submitWeather" class="btn btn-primary">Search City</button>
+              <button id="submitWeather" class="btn btn-warning">Search City</button>
           </div>
-          <div id="show">
-
+          <div id="show-box">
+          <div id="show"></div>
+          </div>
           </div>
       </div>
+
+      <div id="background-wrap">
+          <div class="x1">
+                <div class="cloud"></div>
+          </div>
+
+          <div class="x1">
+                <div class="cloud"></div>
+          </div>
+
+          <div class="x2">
+                <div class="cloud"></div>
+          </div>
+
+          <div class="x3">
+                <div class="cloud"></div>
+          </div>
+
+          <div class="x4">
+                <div class="cloud"></div>
+
+            <div class="x5">
+                <div class="cloud"></div>
+          </div>
+          </div>
+
+     
+      <!-- <script>
+
+          const successCallback = (position) => {
+              console.log(position);
+          };
+          const errorCallback = (error) => {
+              console.log(error);
+          }
+          navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+      </script> -->
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
