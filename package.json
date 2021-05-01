@@ -1,0 +1,23 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "A javascript widget that tells you the weather based on the city you enter in the search",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tparks18/weather_app_widget.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tparks18/weather_app_widget/issues"
+  },
+  "homepage": "https://github.com/tparks18/weather_app_widget#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
